@@ -1,0 +1,57 @@
+body {
+  background-color: darkslategrey;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+  grid-template-rows: auto auto auto;
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 0px 20px blue;
+  margin: auto;
+}
+
+/* .blocks {
+  width: auto;
+  height: auto; 
+  font-size: 0.1px;
+} 
+*/
+.head {
+  text-align: center;
+}
+
+#p11 {
+  background: url(images1/11.jpg);
+}
+#p12 {
+  background: url(images1/12.jpg);
+}
+#p13 {
+  background: url(images1/13.jpg);
+}
+#p21 {
+  background: url(images1/21.jpg);
+}
+#p22 {
+  background: url(images1/22.jpg);
+}
+#p23 {
+  background: url(images1/23.jpg);
+}
+#p31 {
+  background: url(images1/31.jpg);
+}
+#p32 {
+  background: url(images1/32.jpg);
+}
+
+#startBtn {
+  width: 150px;
+  height: 50px;
+  background-color: lightsalmon;
+  font-size: large;
+}
